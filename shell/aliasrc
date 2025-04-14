@@ -9,7 +9,8 @@ alias \
 	mkd="mkdir -pv"
 
 alias \
-	cl="clear"
+	cl="clear"\
+	gu="git undo"
 
 # Colorize commands when possible.
 alias \

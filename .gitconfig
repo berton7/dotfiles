@@ -10,3 +10,5 @@
         clean = git-lfs clean -- %f
 [pull]
         rebase = true
+[alias]
+	undo = reset --soft HEAD~1
