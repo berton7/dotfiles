@@ -19,3 +19,8 @@ alias \
 	grep="grep --color=auto" \
 	diff="diff --color=auto" \
 	ccat="highlight --out-format=ansi"
+
+# Server
+alias \
+	mcct="ssh root@192.168.1.152 lxc-start 108"
+	debct="ssh root@192.168.1.152 lxc-start 109"
