@@ -8,6 +8,7 @@ alias \
 	rmd="rm -rf" \
 	mkd="mkdir -pv"
 
+# Useful aliases
 alias \
 	cl="clear"\
 	gu="git undo"
