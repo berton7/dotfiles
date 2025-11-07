@@ -11,6 +11,7 @@ export CXX="clang++"
 
 # Various env
 export CMAKE_GENERATOR="Ninja"
+export MAKEFLAGS="-j `nproc`"
 
 # ~/ Clean-up:
 export XDG_CONFIG_HOME="$HOME/.config"
