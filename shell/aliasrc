@@ -26,4 +26,5 @@ alias \
 # Server
 alias \
 	mcct="ssh root@192.168.1.152 lxc-start 108" \
-	debct="ssh root@192.168.1.152 lxc-start 109"
+	debct="ssh root@192.168.1.152 lxc-start 109" \
+	pve-update-all="ssh root@192.168.1.152 bash pve-update-all.sh"
