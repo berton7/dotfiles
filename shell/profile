@@ -6,8 +6,6 @@ unsetopt PROMPT_SP
 
 # Default programs:
 export EDITOR="nvim"
-export CC="clang"
-export CXX="clang++"
 
 # Various env
 export CMAKE_GENERATOR="Ninja"
