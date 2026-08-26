@@ -13,7 +13,8 @@ alias \
 	cl="clear" \
 	gu="git undo" \
 	ytmp3=$'yt-dlp --verbose --output "%(artist)s - %(title)s.%(ext)s" --yes-playlist --windows-filenames --abort-on-unavailable-fragment --buffer-size 1M --extract-audio --audio-format mp3 --audio-quality 320K --embed-metadata --embed-thumbnail --download-archive _songs.txt --ppa "EmbedThumbnail+ffmpeg_o:-c:v mjpeg -vf crop="\'if(gt(ih,iw),iw,ih)\':\'if(gt(iw,ih),ih,iw)\'"'\
-	yy="yay --noconfirm && yay -Sc --noconfirm"
+	arch-remove-orphans='orphans=$(pacman -Qtdq 2>/dev/null); [[ -n "$orphans" ]] && sudo pacman -Rns $orphans || true'\
+	yy="yay --noconfirm && yay -Sc --noconfirm && arch-remove-orphans && sudo rm -rf /var/cache/pacman/pkg/download-* || true"
 
 # Colorize commands when possible.
 alias \
